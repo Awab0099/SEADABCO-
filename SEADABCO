@@ -1,0 +1,77 @@
+<!DOCTYPE html><html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEADABCO</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; direction: rtl; }
+    header, footer { background: #004080; color: white; padding: 1rem; text-align: center; }
+    .language-select, .login, .search-bar, .departments, .main, .footer-links, .social-icons { margin: 1rem auto; max-width: 1000px; padding: 0 1rem; }
+    .language-select, .login { display: flex; justify-content: space-between; align-items: center; }
+    .search-bar input[type="text"] { width: 100%; padding: 0.5rem; border-radius: 5px; border: 1px solid #ccc; }
+    .logo { text-align: center; font-size: 2.5rem; font-weight: bold; color: #004080; }
+    .departments { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; }
+    .departments div { background: #cce0ff; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+    .main { display: flex; justify-content: space-between; gap: 2rem; }
+    .main .photo { flex: 1; background: #e0e0e0; height: 200px; border-radius: 10px; text-align: center; line-height: 200px; color: #555; }
+    .main .paragraph { flex: 2; background: white; padding: 1rem; border-radius: 10px; }
+    .footer-links { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 0.5rem; }
+    .footer-links a { color: white; text-decoration: none; }
+    .social-icons { text-align: center; margin-top: 1rem; }
+    .social-icons span { margin: 0 0.5rem; font-size: 1.2rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="language-select">
+      <div>
+        <button>En</button>
+        <button>Ar</button>
+      </div>
+      <div class="login">
+        <input type="text" placeholder="اسم المستخدم">
+        <input type="password" placeholder="كلمة المرور">
+        <button>دخول</button>
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" placeholder="ابحث...">
+    </div>
+    <div class="logo">SEADABCO</div>
+  </header>  <div class="departments">
+    <div>DV<br>المعلج</div>
+    <div>PH<br>بهرقية</div>
+    <div>ED<br>زنامة</div>
+    <div>EN<br>الماجس</div>
+    <div>TR<br>زراعية</div>
+    <div>Ag<br>رعاية</div>
+    <div>MA<br>حوامة</div>
+    <div>Ho<br>عصمية</div>
+    <div>RE<br>تجارية</div>
+    <div>RE<br>السلمة</div>
+    <div>PO<br>الصمة</div>
+    <div><span>🍃</span><br>حول</div>
+  </div>  <div class="main">
+    <div class="photo">صورة</div>
+    <div class="paragraph">
+      <h2>الصفحة الرئيسية</h2>
+      <p>مرحبًا بكم في منصة SEADABCO التعليمية. نحن نقدم مجموعة واسعة من الأقسام العلمية والعملية لدعم طلابنا ومجتمعنا.</p>
+    </div>
+  </div>  <footer>
+    <div class="footer-links">
+      <a href="#">تواصل معنا</a>
+      <a href="#">من نحن</a>
+      <a href="#">فروعنا</a>
+    </div>
+    <div class="social-icons">
+      <span>📘</span>
+      <span>📺</span>
+      <span>🟢</span>
+      <span>💼</span>
+      <span>📱</span>
+      <span>📷</span>
+      <span>📧</span>
+    </div>
+  </footer>
+</body>
+</html>
